@@ -41,5 +41,8 @@
     uint32 CDLConfigWordCSCDT = 3
     uint32 CDLConfigWordbRPCCSC = 16
     uint32 CDLConfigWordfRPCDT = 1
-    
+    // VersionSortRankEtaQLUT - quality assign LUT
+    // 1 = full geometry tuned with ORCA
+    // 2 = staged RPC geometry - accept q=2 CSC candidates
+    uint32 VersionSortRankEtaQLUT = 2
   }
